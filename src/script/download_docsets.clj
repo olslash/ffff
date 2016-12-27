@@ -57,8 +57,9 @@
                           (io/file (tarfile-path (first %))))
                  sources)))
 
-  (let [tarfiles (->> (.list (io/file tarfiles-path)))]
+  (let [tarfiles (.list (io/file tarfiles-path))]
     (doall (pmap #(untar (tarfile-path %)
                          (docset-path (name %)))
                  tarfiles))
+
     (delete-dir tarfiles-path)))
