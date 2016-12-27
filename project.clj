@@ -23,6 +23,7 @@
                  [ring/ring-jetty-adapter "1.5.0"]
                  [bidi "2.0.8"]
 
+                 [org.xerial/sqlite-jdbc "3.15.1"]
                  [conman "0.5.8"]
                  [robert/hooke "1.3.0"]
 
