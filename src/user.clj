@@ -35,4 +35,4 @@
   (fix-ns)
   (tn/refresh :after 'user/go))
 
-(tn/set-refresh-dirs "./src/app")
+;(tn/set-refresh-dirs "./src/app")

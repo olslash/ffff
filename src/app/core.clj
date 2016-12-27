@@ -9,6 +9,6 @@
 
 (defn -main []
   (dosync
-    (mount/start)
-    (do-logging-config config)))
-
+    (mount/start #'config)
+    (do-logging-config config)
+    (mount/start)))
