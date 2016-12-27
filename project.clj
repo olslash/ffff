@@ -9,7 +9,10 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/tools.namespace "0.2.11"]
                  [org.clojure/algo.generic "0.1.2"]
+                 [org.clojure/data.xml "0.2.0-alpha2"]
+                 [org.clojure/data.zip "0.1.2"]
 
+                 [me.raynes/fs "1.4.6"]
                  [environ "1.0.3"]
 
                  [http-kit "2.2.0"]
@@ -31,7 +34,7 @@
                  [com.taoensso/timbre "4.7.0"]
                  [com.fzakaria/slf4j-timbre "0.3.2"]        ;; req'd by migratus
 
-                 [mount "0.1.10"]
+                 [mount "0.1.11"]
 
                  [compojure "1.0.2"]]                        ;; req'd by liberator.dev
 
